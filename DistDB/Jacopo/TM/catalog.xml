@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/DatabaseManager/DM10Service?wsdl" uri="xml-resources/web-service-references/DM10Service/wsdl/localhost_8080/DatabaseManager/DM10Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM10Service?xsd=1" uri="xml-resources/web-service-references/DM10Service/wsdl/localhost_8080/DatabaseManager/DM10Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM4Service?wsdl" uri="xml-resources/web-service-references/DM4Service/wsdl/localhost_8080/DatabaseManager/DM4Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM4Service?xsd=1" uri="xml-resources/web-service-references/DM4Service/wsdl/localhost_8080/DatabaseManager/DM4Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM3Service?wsdl" uri="xml-resources/web-service-references/DM3Service/wsdl/localhost_8080/DatabaseManager/DM3Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM3Service?xsd=1" uri="xml-resources/web-service-references/DM3Service/wsdl/localhost_8080/DatabaseManager/DM3Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM2Service?wsdl" uri="xml-resources/web-service-references/DM2Service/wsdl/localhost_8080/DatabaseManager/DM2Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM2Service?xsd=1" uri="xml-resources/web-service-references/DM2Service/wsdl/localhost_8080/DatabaseManager/DM2Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM1Service?wsdl" uri="xml-resources/web-service-references/DM1Service/wsdl/localhost_8080/DatabaseManager/DM1Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM1Service?xsd=1" uri="xml-resources/web-service-references/DM1Service/wsdl/localhost_8080/DatabaseManager/DM1Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM5Service?wsdl" uri="xml-resources/web-service-references/DM5Service/wsdl/localhost_8080/DatabaseManager/DM5Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM5Service?xsd=1" uri="xml-resources/web-service-references/DM5Service/wsdl/localhost_8080/DatabaseManager/DM5Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM7Service?wsdl" uri="xml-resources/web-service-references/DM7Service/wsdl/localhost_8080/DatabaseManager/DM7Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM7Service?xsd=1" uri="xml-resources/web-service-references/DM7Service/wsdl/localhost_8080/DatabaseManager/DM7Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM8Service?wsdl" uri="xml-resources/web-service-references/DM8Service/wsdl/localhost_8080/DatabaseManager/DM8Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM8Service?xsd=1" uri="xml-resources/web-service-references/DM8Service/wsdl/localhost_8080/DatabaseManager/DM8Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM9Service?wsdl" uri="xml-resources/web-service-references/DM9Service/wsdl/localhost_8080/DatabaseManager/DM9Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM9Service?xsd=1" uri="xml-resources/web-service-references/DM9Service/wsdl/localhost_8080/DatabaseManager/DM9Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM6Service?wsdl" uri="xml-resources/web-service-references/DM6Service/wsdl/localhost_8080/DatabaseManager/DM6Service.wsdl"/>
+    <system systemId="http://localhost:8080/DatabaseManager/DM6Service?xsd=1" uri="xml-resources/web-service-references/DM6Service/wsdl/localhost_8080/DatabaseManager/DM6Service.xsd_1.xsd"/>
+</catalog>
