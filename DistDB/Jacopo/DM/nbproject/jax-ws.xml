@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="DM10">
+      <implementation-class>Server.DM10</implementation-class>
+    </service>
+    <service name="DM">
+      <implementation-class>Server.DM</implementation-class>
+    </service>
+    <service name="DM3">
+      <implementation-class>Server.DM3</implementation-class>
+    </service>
+    <service name="DM2">
+      <implementation-class>Server.DM2</implementation-class>
+    </service>
+    <service name="DM1">
+      <implementation-class>Server.DM1</implementation-class>
+    </service>
+    <service name="DM4">
+      <implementation-class>Server.DM4</implementation-class>
+    </service>
+    <service name="DM5">
+      <implementation-class>Server.DM5</implementation-class>
+    </service>
+    <service name="DM6">
+      <implementation-class>Server.DM6</implementation-class>
+    </service>
+    <service name="DM7">
+      <implementation-class>Server.DM7</implementation-class>
+    </service>
+    <service name="DM8">
+      <implementation-class>Server.DM8</implementation-class>
+    </service>
+    <service name="DM9">
+      <implementation-class>Server.DM9</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
