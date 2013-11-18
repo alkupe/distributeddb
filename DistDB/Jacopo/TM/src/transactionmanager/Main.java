@@ -18,6 +18,7 @@ public class Main {
      public static void main(String[] args) {
          TM tm=new TM();
          tm.setUpDMsVariable();
+         tm.start();
   }
 }
          

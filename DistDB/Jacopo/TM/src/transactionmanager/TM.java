@@ -12,6 +12,8 @@ import org.jdom.*;
 import org.jdom.output.*;
 import org.jdom.input.*;
 import json.*;
+import transactionmanager.Command;
+import transactionmanager.Parser;
 
 /**
  *
@@ -172,6 +174,60 @@ public class TM {
             e.printStackTrace();
         }
         return array_address;
+    }
+    
+    public void start() {
+        try {
+            BufferedReader br = 
+                          new BufferedReader(new InputStreamReader(System.in));
+            String input;
+            while((input=br.readLine())!=null){
+                ArrayList<Command> result = Parser.parser(input);
+                for (Command c : result) {
+                    execute(c);
+                }
+                //try queue here
+            }
+        } catch(IOException io){
+            
+	}	
+    }
+    
+    public void execute(Command c) {
+        
+        switch(c.cType) {
+            case BEGIN:
+                //enter in T table
+                break;
+            case BEGINRO:
+                //enter in T table as read only
+                break;
+            case WRITE:
+                //send write to all DMs containing variable
+                //enter in T table
+                break;
+            case FAIL:
+                //send fail to correct DM
+                break;
+            case RECOVER:
+                //send restore to correct DM
+                break;
+            case READ:
+                //send read to a DM containing variable until success
+                //enter in T table
+                break;
+            case END:
+                //send end TM to all TMs used in T table
+                //get the reads if any
+                //cleanup
+                break;
+            case DUMP:
+                //get all the database values from all the DMs and print them out
+                break;
+            case QUERYSTATE:
+                //debug query--get all the states from all the databases and the variables
+                break;
+        }
     }
 
 }
