@@ -8,7 +8,7 @@ package Server;
  *
  * @author pino
  */
-public class Variable {
+public class Variable implements Cloneable{
     
     private String name;
     
@@ -83,6 +83,11 @@ public class Variable {
      */
     public void setRecovered(boolean recovered) {
         this.recovered = recovered;
+    }
+    
+    
+    public Variable clone() throws CloneNotSupportedException {
+                return (Variable) super.clone();
     }
     
 }

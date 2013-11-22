@@ -17,8 +17,8 @@ public class DM {
 
      /*Attributes*/
     
-    public HashMap<String,Variable> variables = new HashMap<String,Variable>();
-        
+    public Map<String,Variable> variables = new HashMap<String,Variable>();
+    public Map<String,Map<String,Variable>> varCopies = new HashMap<String,Map<String,Variable>>();    
 
     @WebMethod(operationName = "Initialize")
     public String Initialize(String variables_str, String file_name) {
@@ -46,4 +46,17 @@ public class DM {
        
        return null;
     }
+    
+    @WebMethod(operationName = "registerRO")
+    public void registerRO(String transaction) throws CloneNotSupportedException {
+            Map<String,Variable> copy = new HashMap<String,Variable>();
+            for (Map.Entry<String, Variable> entry : variables.entrySet()) {
+                copy.put(entry.getKey(), (Variable) entry.getValue().clone());
+            }
+            varCopies.put(transaction, copy);
+
+    }
+
+
+
 }

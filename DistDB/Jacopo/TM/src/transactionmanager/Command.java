@@ -22,7 +22,7 @@ public class Command {
     public commandType cType;
     public String tranName;
     public int value;
-
+    public int time;
     @Override
     public int hashCode() {
         int hash = 7;
