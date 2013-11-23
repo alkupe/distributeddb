@@ -8,9 +8,12 @@ import java.io.*;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import java.net.MalformedURLException;
+import javax.jws.WebParam;
 import json.*;
 import json.JSONArray.*;
 import javax.swing.*;
+import Server.LockManager;
+
 
 @WebService()
 public class DM {
@@ -19,7 +22,8 @@ public class DM {
     
     public Map<String,Variable> variables = new HashMap<String,Variable>();
     public Map<String,Map<String,Variable>> varCopies = new HashMap<String,Map<String,Variable>>();    
-
+    public LockManager lm = new LockManager();
+    
     @WebMethod(operationName = "Initialize")
     public String Initialize(String variables_str, String file_name) {
        try{
@@ -56,6 +60,17 @@ public class DM {
             varCopies.put(transaction, copy);
 
     }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "Write")
+    public Boolean Write(@WebParam(name = "variable") String variable, @WebParam(name = "value") int value) {
+        //TODO write your implementation code here:
+        return null;
+    }
+
+    
 
 
 
