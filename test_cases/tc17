@@ -1,0 +1,8 @@
+begin(T3)
+fail(4)
+W(T3,x2,22)
+R(T3,x2)
+recover(4)
+dump()
+end(T3)
+
