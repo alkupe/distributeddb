@@ -1,4 +1,4 @@
-distributeddb
+distributeddb - Courant Institute, NYU
 =============
 A distributed database, complete
 with multiversion concurrency control, deadlock avoidance, replication, and failure recovery. Written in Java, using XML-RPC libaray for Advanced Databases class.
@@ -22,3 +22,4 @@ It should read any up (i.e. alive) copy and return the current value.
 
 W(T1, x6,v) says transaction 1 wishes to write all available copies of x6 (provided it can get the locks) with the value v. If it can get the locks on
 only some sites, it should get them.
+
